@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+   font-family: 'Raleway';
+
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0px 30px 0px 30px;
+    position: fixed;
+    top: 0px;
+}
+
+
+.logo {
+    height: 50%;
+    cursor: pointer;
+}
+
+.navbar,
+.navbar-list {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.navbar{
+gap: 100px;
+
+}
+
+.navbar-list {
+    gap: 30px;
+
+}
+
+.navbar-list a {
+color: rgb(0, 0, 0);
+font-weight: 500;
+letter-spacing: 2px;
+font-size: 14px;
+}
+
+.fa-cart-shopping {
+    color: #2a9abd;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4edee9, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+   
+    }
+    
+    #hero {
+   max-width: 70%;
+    
+  
+
+    
+    
+    }
+
+    .hero-container {
+max-width: 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+    gap: 80px;
+    padding: 50px;
+    }
+
+
+
+    .hero-info {
+        display: flex;
+        flex-direction: column;
+width: 50%;
+gap: 40px;
+color: white;
+font-size: 20px;
+
+    }
+
+.hero-info h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.con-onda {
+font-weight: 800;
+
+}
+
+    .button1 {
+border-radius: 30px;
+border: none;
+background-color: rgb(146, 20, 146);
+padding: 15px 30px;
+color: white;
+font-weight: 600;
+font-size: 16px;
+letter-spacing: 3px;
+width: fit-content;
+cursor: pointer;
+
+    }
+
+    .hero-img {
+        display: flex;
+        width: 40%;
+        height: 700px;
+
+    }
+
+    #beneficios {
+        background-color: rgb(175, 50, 175);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .contenedorBeneficios {
+display: flex;
+gap: 80px;
+margin: 50px;
+justify-content: space-between;
+align-items: center;
+max-width: 1200px;
+padding: 40px;
+
+
+    }
+
+
+
+    .beneficio {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+gap: 25px;
+
+    }
+
+    .fa-brands,
+    .fa-clock-rotate-left,
+    .fa-calendar-check {
+        font-size: 48px;
+    }
+
+    .descripcionBeneficio {
+justify-content: center;
+text-align: center;
+font-size: 1rem;
+
+    }
+
+#modelos {
+display: flex;
+flex-wrap: wrap;
+margin: 50px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+#modelos h2 {
+color: white;
+font-size: 24px;
+letter-spacing: 10px;
+font-weight: 700;
+}
+
+
+.products-container {
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+flex-wrap: wrap;
+padding: 30px;
+border-radius: 1rem;
+
+}
+
+.product {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #ffffff;
+flex-direction: column;
+gap: 20px;
+border-radius: 2rem;
+padding: 20px;
+}
+    
+
+.product-img {
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 250px;
+
+}
+
+.product-info {
+    display: flex;
+    gap: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add {
+    border-radius: 1rem;
+    background-color: #2a9abd;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.categoria {
+font-size: 12px;
+text-decoration: underline;
+color: rgb(100, 100, 100);
+cursor: pointer;
+
+}
+.ver-mas
+{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.fa-chevron-down {
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+#personalizadas {
+    background-color: #2a9abd;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.contenedor-formulario {
+gap: 20px;
+max-width: 1000px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 40px;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+}
+
+.personalizado {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#Nombre,
+#Motivo,
+#E-mail,
+#Detalles
+
+ {
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    padding: 15px;
+    width: 70%;
+
+}
+
+#Nombre::placeholder,
+#Motivo::placeholder,
+#E-mail::placeholder,
+#Detalles::placeholder {
+
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    color: white;
+    display: flex;
+     align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 60px;
+
+}
+
+.footer-links {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    gap: 120px;
+      
+}
+ 
+.contactanos,
+.seguinos {
+    font-weight: 800;
+}
+
+.redes li,
+.lista-categorias li,
+.contacto li {
+    padding:10px;
+}
+
+
+.logo-footer {
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100px;
+
+}
+
+.form-container {
+    background-color: #FEAC5E;
+    display: flex;
+    color: #C779D0;
+}
+
+.logo-register {
+    width: 200px;
+}
+
+#Nombre::placeholder {
+    color: #C779D0;
+}
