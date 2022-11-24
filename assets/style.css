@@ -53,6 +53,20 @@ letter-spacing: 2px;
 font-size: 14px;
 }
 
+
+.acceder {
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(175, 50, 175);
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    width: fit-content;
+    cursor: pointer;
+    
+        }
 .fa-cart-shopping {
     color: #2a9abd;
     font-size: 24px;
@@ -68,8 +82,9 @@ main {
     align-items: center;
     justify-content: center;
     background: #FEAC5E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4edee9, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #42a7cf, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4eb8e9, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     
     
    
@@ -114,8 +129,15 @@ font-size: 20px;
 .con-onda {
 font-weight: 800;
 
+
 }
 
+.hero-info p {
+font-weight: 500;
+line-height: 130%;
+
+
+}
     .button1 {
 border-radius: 30px;
 border: none;
@@ -184,7 +206,6 @@ font-size: 1rem;
 #modelos {
 display: flex;
 flex-wrap: wrap;
-margin: 50px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -196,6 +217,7 @@ color: white;
 font-size: 24px;
 letter-spacing: 10px;
 font-weight: 700;
+margin-top: 50px;
 }
 
 
@@ -265,12 +287,14 @@ cursor: pointer;
     font-size: 20px;
     color: white;
     font-weight: 700;
+   
 
 }
 
 .fa-chevron-down {
     font-size: 2rem;
     color: white;
+    margin-bottom: 50px;
     cursor: pointer;
 }
 
@@ -319,7 +343,8 @@ padding: 40px;
 #Nombre,
 #Motivo,
 #E-mail,
-#Detalles
+#Detalles,
+#Contraseña
 
  {
     outline: none;
@@ -333,7 +358,8 @@ padding: 40px;
 #Nombre::placeholder,
 #Motivo::placeholder,
 #E-mail::placeholder,
-#Detalles::placeholder {
+#Detalles::placeholder,
+#Contraseña::placeholder {
 
     font-size: 14px;
     font-weight: 400;
@@ -380,16 +406,61 @@ width: 100px;
 
 }
 
+/* register */
+
+.bienvenido {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
 .form-container {
-    background-color: #FEAC5E;
     display: flex;
-    color: #C779D0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-color: black;
+    border-radius: 3rem;
+    padding: 60px 5px;
 }
 
 .logo-register {
-    width: 200px;
+    width: 250px;
 }
 
-#Nombre::placeholder {
-    color: #C779D0;
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 600px;
+    
+}
+
+.registrarse-con {
+    color: white;
+    gap: 10px;
+    display: flex;
+}
+
+.fa-google,
+.fa-facebook {
+    font-size: 22px;
+}
+
+.main-register {
+    height: 100vh;
+}
+
+#Contraseña {
+    margin-bottom: 20px;
+}
+
+.volver {
+    color: black;
+    font-size: 18px;
+font-weight: 800;
+padding: 50px;
 }
