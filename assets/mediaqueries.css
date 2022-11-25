@@ -61,15 +61,16 @@
 #Contraseña {
 
    font-size: 12px;
-   min-width: 400px;
+   min-width: 320px;
 }
 
+
 .personalizado {
-    width: 70%;
+    width: 100%;
 }
 
 .contenedor-formulario {
-width: 80%;
+width: 90%;
 
 }
 
@@ -77,8 +78,50 @@ width: 80%;
 
 .cart {
     width: 100%;
+    left: 0;
 }
+   
+.products-container {
+    width: 90%;
+}
+
+.product {
+    width: 90%;
+}
+
+.footer-links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.formulario {
+    width: 90%;
     
+}
+
+#Nombre,
+#Motivo,
+#E-mail,
+#Detalles,
+#Contraseña {
+
+   font-size: 10px;
+   min-width: 320px;
+
+}
+
+.formulario {
+    width: 80%;
+    font-size: 18px;
+}
+.redes li,
+.lista-categorias li,
+.contacto li {
+    padding:5px;
+}
+
 }
 
 
