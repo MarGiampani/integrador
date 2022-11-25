@@ -41,7 +41,9 @@
 }
 
 .hero-info {
-    width: 70%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenedor-beneficios {
