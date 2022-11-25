@@ -73,9 +73,13 @@ font-size: 14px;
     cursor: pointer;
 }
 
-#cart-toggle {
+#cart-toggle,
+#menu-toggle,
+.menu-label {
     display: none;
 }
+
+
 
 #cart-toggle:checked + .cart {
     display: flex;
@@ -97,7 +101,9 @@ main {
     }
     
     #hero {
-   max-width: 70%;
+        display: flex;
+   justify-content: center;
+   
     
   
 
@@ -174,16 +180,17 @@ cursor: pointer;
     }
     .contenedorBeneficios {
 display: flex;
-gap: 80px;
 margin: 50px;
-justify-content: space-between;
+gap: 20px;
 align-items: center;
+justify-content: center;
 max-width: 1200px;
-padding: 40px;
+padding: 30px;
+flex-wrap: wrap;
+
 
 
     }
-
 
 
     .beneficio {
@@ -192,7 +199,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 color: white;
-gap: 25px;
+gap: 20px;
+padding: 30px;
+
 
     }
 
@@ -206,6 +215,7 @@ gap: 25px;
 justify-content: center;
 text-align: center;
 font-size: 1rem;
+max-width: 300px;;
 
     }
 
@@ -344,6 +354,7 @@ padding: 40px;
     font-weight: 800;
     margin-top: 20px;
     margin-bottom: 40px;
+    max-width: 700px;
 }
 
 #Nombre,
@@ -523,6 +534,7 @@ flex-direction: column;
     width: 80%;
     font-weight: 700;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .subtotal
