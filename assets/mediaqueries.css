@@ -74,6 +74,15 @@ width: 90%;
 
 }
 
+.footer-links {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+    
+}
+
 @media (max-width: 576px) {
 
 .cart {
@@ -112,6 +121,16 @@ width: 90%;
    font-size: 10px;
    min-width: 320px;
 
+}
+
+#Nombre::placeholder,
+#Motivo::placeholder,
+#E-mail::placeholder,
+#Detalles::placeholder,
+#Contraseña::placeholder {
+
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .formulario {
