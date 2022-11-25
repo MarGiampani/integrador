@@ -1,0 +1,17 @@
+@media (max-widht: 992px) {
+
+header 
+{
+    display: none;
+}
+
+.hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+}

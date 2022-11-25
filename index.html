@@ -14,6 +14,7 @@
     />
 
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/mediaqueries.css" />
     <link rel="stylesheet" href="./assets/animaciones.css" />
   </head>
   <body>
@@ -29,8 +30,36 @@
           <li>
             <a href="./login.html"><button class="acceder">ACCEDER</button></a>
           </li>
-          <li><i class="fa-solid fa-cart-shopping"></i></li>
         </ul>
+
+        <label for="cart-toggle" class="cart-label">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </label>
+        <input type="checkbox" id="cart-toggle" />
+
+        <div class="cart">
+          <h3>Tus invitaciones</h3>
+          <div class="compras">
+            <div class="compra">
+              <img class="cart-img" src="./assets/dragonball.png" alt="dbz" />
+              <div class="cart-info">
+                <h3 class="cart-item">Invitación Dragon Ball</h3>
+                <span class="price">$1300</span>
+              </div>
+            </div>
+            <!-- <div class="compra">
+            <img class="cart-img" src="./assets/naruto.png" alt="dbz" />
+            <div class="cart-info">
+              <h3 class="cart-item">Invitación Naruto</h3>
+              <span class="price">$1300</span>
+            </div>
+          </div> -->
+          </div>
+
+          <p class="subtotal">Subtotal: $1300</p>
+          <button class="ver-carrito">Ver carrito</button>
+          <button class="finalizar">Finalizar compra</button>
+        </div>
       </nav>
     </header>
     <main>
