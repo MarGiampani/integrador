@@ -378,7 +378,7 @@ padding: 30px;
     align-items: center;
     color: white;
     font-size: 22px;
-    width: 90%;
+    width: 100%;
 }
 
 .personalizado {
@@ -473,7 +473,8 @@ width: 100px;
     gap: 30px;
     background-color: black;
     border-radius: 3rem;
-    padding: 60px 5px;
+    padding: 40px 5px;
+   width: 550px;
 }
 
 .logo-register {
@@ -485,8 +486,8 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    width: 600px;
+    gap: 10px;
+    width: 100%;
     
 }
 
